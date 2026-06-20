@@ -1,0 +1,370 @@
+title,description,category
+"Draft Q3 performance self-review","Write up accomplishments and areas for improvement for quarterly review with manager.",Work
+"Prep slides for Monday all-hands","Create deck summarizing project progress and key metrics for team-wide meeting.",Work
+"Respond to client inquiry about timeline","Draft email clarifying delivery schedule and next steps for client project.",Work
+"Update project roadmap in Jira","Adjust sprint milestones and add new tasks based on recent scope changes.",Work
+"Review team timesheets for approval","Check hours logged by direct reports and approve before payroll cutoff.",Work
+"Send follow-up emails to prospects","Reach out to three leads who attended the demo to move them down funnel.",Work
+"Coordinate interview schedule for candidate","Arrange time slots with panel and send calendar invites to final-round applicant.",Work
+"Finalize budget proposal for Q4","Compile cost estimates and justifications for next quarter's spending plan.",Work
+"Clean up email inbox and archive old threads","Organize folders and delete junk to get to zero unread messages.",Work
+"Set up new laptop for remote employee","Install necessary software and configure VPN access for upcoming hire.",Work
+"Write handoff doc for pending projects","Prepare summary of ongoing tasks and contacts for colleague covering my leave.",Work
+"Run weekly sales report in CRM","Generate pipeline dashboard and export to PDF for leadership review.",Work
+"Schedule team building offsite activity","Book venue and coordinate catering for half-day retreat next month.",Work
+"Revise employee onboarding checklist","Update orientation materials based on new HR policies and tools.",Work
+"Attend cross-functional sync with product","Join meeting to align on feature requirements and launch timelines.",Work
+"Create social media content calendar","Plan posts for upcoming month including copy and visual assets.",Work
+"Analyze churn data from last quarter","Identify trends and root causes to present findings to retention team.",Work
+"Prepare invoice for consulting services","Itemize hours and expenses then send to finance for client billing.",Work
+"Order business cards for new hires","Submit design and printing request for 10 new team members.",Work
+"Review and redline vendor contract","Mark up legal terms and send revisions to procurement for negotiation.",Work
+"Compile weekly status report for director","Summarize completed tasks, blockers, and next week's priorities.",Work
+"Update internal wiki with process changes","Refresh documentation for CRM usage and approval workflows.",Work
+"Record Loom demo for new feature","Walk through functionality and share recording with customer success team.",Work
+"Plan agenda for monthly ops review","Outline discussion points and assign speaking slots to each department lead.",Work
+"Follow up on expense reimbursement request","Check status of outstanding claims and remind finance to process.",Work
+"Organize shared drive and archive old files","Move completed project folders to archive and rename for clarity.",Work
+"Send thank-you notes to internship cohort","Draft personalized emails to summer interns wrapping up their program.",Work
+"Test staging environment before deployment","Run regression suite and log any bugs found in pre-prod build.",Work
+"Schedule one-on-ones with direct reports","Book 30-min slots for each team member to discuss career development.",Work
+"Prepare talking points for board meeting","Craft concise updates on revenue, user growth, and operational metrics.",Work
+"Renew software licenses for design team","Check expirations and process purchase orders for Adobe and Figma.",Work
+"Create onboarding ticket for new dev","Set up GitHub access, AWS permissions, and send welcome guide.",Work
+"Summarize customer feedback from surveys","Pull NPS data and highlight recurring themes for product improvements.",Work
+"Coordinate with PR on press release","Share product details and review draft announcement for upcoming launch.",Work
+"Update project timeline in Gantt chart","Adjust dependencies and add buffer for critical path tasks.",Work
+"Send meeting recap to stakeholders","Distribute notes and action items from this morning's strategy session.",Work
+"Review peer's design mockup and comment","Provide constructive feedback on UI wireframes within Figma.",Work
+"Reserve conference room for client presentation","Book main boardroom and test AV equipment ahead of visit.",Work
+"Complete mandatory compliance training","Watch video modules and pass quiz on data privacy regulations.",Work
+"Export leads list for email campaign","Filter CRM database and create CSV for marketing automation tool.",Work
+"Set up recurring monthly report automation","Schedule script to pull metrics and email dashboard every first Monday.",Work
+"Conduct exit interview for departing employee","Meet with staff member to gather feedback and complete offboarding forms.",Work
+"Refresh company homepage copy","Update hero text and call-to-action based on latest brand messaging.",Work
+"Approve time-off requests in HR system","Review pending PTO applications and approve or deny as needed.",Work
+"Prepare debug notes for support team","Document common issues and workarounds to share with customer reps.",Work
+"Order catering for lunch-and-learn","Arrange food delivery for 20 attendees at tomorrow's training session.",Work
+"Update password manager for shared accounts","Rotate credentials and grant access to new team members only.",Work
+"Create data viz for monthly board packet","Build charts in Tableau to illustrate sales performance and forecasts.",Work
+"Write job description for open role","Draft responsibilities and qualifications for senior engineer position.",Work
+"Clean up Slack channels and archive inactive","Remove old channels and organize workspace for better focus.",Work
+"Schedule vendor demo for procurement","Invite IT and finance to evaluate new expense management tool.",Work
+"Review analytics dashboards for anomalies","Check traffic and conversion data to flag any unexpected drops.",Work
+"Send reminder about all-hands submission","Notify teams to submit their project updates by Friday EOD.",Work
+"Prepare asset handoff for agency partner","Package final logos, fonts, and style guide for external creative team.",Work
+"Update employee directory with new pics","Upload recent headshots and update contact info for internal portal.",Work
+"Plan off-cycle performance check-ins","Set up quick 15-min meetings to give mid-quarter feedback to juniors.",Work
+"Review security audit findings and prioritize","Assess vulnerability report and assign fixes to relevant engineers.",Work
+"Draft internal newsletter for next week","Write blurbs about team wins, birthdays, and upcoming events.",Work
+"Coordinate travel arrangements for conference","Book flights and hotel for 3 staff attending industry expo.",Work
+"Finalize OKR tracker for current quarter","Input progress scores and link to supporting evidence in shared doc.",Work
+"Test disaster recovery backup procedure","Simulate restore from backup to verify data integrity and speed.",Work
+"Send calendar hold for annual planning offsite","Reserve dates and send preliminary agenda to executive team.",Work
+"Create decision log for project choices","Document rationale for major technical and design decisions made.",Work
+"Review and approve expense reports from team","Check receipts and code each report to correct cost center.",Work
+"Prepare welcome kit for new board member","Assemble folder with bylaws, financials, and meeting schedule.",Work
+"Set up Zapier automation for lead scoring","Connect CRM to email tool to trigger alerts for hot leads.",Work
+"Schedule post-mortem for failed deployment","Organize meeting to discuss root cause and prevent recurrence.",Work
+"Call mom for weekly catch-up","Chat with Mom about her week and plan a visit for next month.",Personal
+"Schedule dentist appt for cleaning","Call dental office to book a routine check-up and polish.",Personal
+"Clean out the garage and donate items","Sort through boxes and take usable goods to charity drop-off.",Personal
+"Plan weekend hiking trip with friends","Research trails, pack supplies, and coordinate carpool for Saturday.",Personal
+"Do laundry and fold all clothes","Wash, dry, and put away accumulated laundry from the past week.",Personal
+"Water indoor plants and prune dead leaves","Check soil moisture and trim brown edges on houseplants.",Personal
+"Renew driver's license online","Complete DMV application and upload required documents for renewal.",Personal
+"Meal prep lunches for the workweek","Cook grains, proteins, and veggies to pack five balanced lunches.",Personal
+"Organize bookshelf by genre and author","Rearrange books and donate any duplicates or unread titles.",Personal
+"Reply to wedding RSVP for cousin","Fill out online form and select meal option for the September wedding.",Personal
+"Set up automatic bill pay for utilities","Log into accounts and schedule recurring payments for water and electric.",Personal
+"Declutter closet and make donation pile","Try on clothes and bag items not worn in the last year.",Personal
+"Call grandma to wish her happy birthday","Wish her a happy birthday and arrange a time to visit with gifts.",Personal
+"Book flights for Thanksgiving travel","Compare prices and reserve round-trip tickets to visit family.",Personal
+"Clean the bathroom thoroughly","Scrub tub, toilet, sink, and mirrors with disinfectant and bleach.",Personal
+"Make a grocery list for the week","Write down ingredients needed for planned dinners and snacks.",Personal
+"Schedule haircut appointment","Call salon and book a trim with preferred stylist for next Saturday.",Personal
+"Change air filters in HVAC system","Replace old filters with new ones to improve air quality and efficiency.",Personal
+"Take car in for oil change and tire rotation","Drive to service center and get routine maintenance done.",Personal
+"Write thank-you cards for graduation gifts","Draft personal notes to relatives who sent money and presents.",Personal
+"Plan date night for this Friday","Choose restaurant, make reservation, and arrange activities after dinner.",Personal
+"Organize digital photos into albums","Sort phone pictures into folders by event and delete blurry duplicates.",Personal
+"Deep clean kitchen counters and appliances","Wipe down all surfaces, including microwave and stovetop.",Personal
+"Drop off dry cleaning and pick up suits","Take garments to cleaners and collect already finished items.",Personal
+"Sign up for volunteer shift at food bank","Register for a 3-hour slot to sort donations and pack boxes.",Personal
+"Update emergency contact list","Refresh phone numbers for family, neighbors, and doctor's office.",Personal
+"Buy new running shoes and athletic socks","Visit store and try on several brands for proper fit and support.",Personal
+"Plan garden layout for spring planting","Sketch beds and order seeds for tomatoes, peppers, and herbs.",Personal
+"Schedule eye exam for new prescription","Call optometrist to book comprehensive vision test.",Personal
+"Clean out fridge and toss expired items","Check all dates and wipe down shelves with baking soda solution.",Personal
+"Send care package to sibling in college","Fill box with snacks, toiletries, and a handwritten letter.",Personal
+"Backup phone photos to cloud storage","Connect to Wi-Fi and sync images to Google Photos or iCloud.",Personal
+"Plan outfit for job interview tomorrow","Select suit, iron shirt, and polish shoes for a professional look.",Personal
+"Call landlord about leaky faucet","Report issue and request plumber visit to fix the kitchen drip.",Personal
+"Organize desk drawer and toss old pens","Sort stationery and recycle dried-out markers and broken clips.",Personal
+"Watch tutorial on home repair skills","Learn how to patch drywall and caulk bathtub via YouTube.",Personal
+"Make reservation for birthday dinner","Book table at favorite restaurant for 8 people next Saturday.",Personal
+"Vacuum all carpets and area rugs","Run vacuum through living room, bedrooms, and hallways thoroughly.",Personal
+"Write bucket list for the year","Jot down experiences and goals to accomplish before next birthday.",Personal
+"Reach out to old friend from college","Send text to catch up and see if they're free for a call.",Personal
+"Clean windows and glass surfaces indoors","Wipe mirrors and window panes with streak-free cleaner.",Personal
+"Replace burned-out lightbulbs around house","Check all fixtures and install new LED bulbs where needed.",Personal
+"Set up a compost bin in backyard","Assemble bin and start collecting fruit peels and coffee grounds.",Personal
+"Create playlist for morning runs","Compile upbeat tracks to keep motivation high during cardio.",Personal
+"Schedule mattress delivery for new bed","Confirm delivery window and arrange old mattress pickup.",Personal
+"Plan Halloween costume and buy supplies","Decide on theme and purchase makeup, fabric, and props.",Personal
+"Clean out car interior and vacuum seats","Remove trash, shake mats, and wipe dashboard with cleaner.",Personal
+"Visit farmers market for fresh produce","Go early to pick up seasonal fruits, vegetables, and honey.",Personal
+"Write letters to pen pals abroad","Catch up with friends in UK and Australia via handwritten notes.",Personal
+"Organize tax documents folder","Gather W-2s, receipts, and bank statements for upcoming filing.",Personal
+"Schedule carpet cleaning service","Book professional steam cleaning for living room and hallway.",Personal
+"Fix loose cabinet handle in kitchen","Tighten screws and align all knobs on cabinet doors.",Personal
+"Buy new bedsheets and pillowcases","Choose cotton set and wash before using on the bed.",Personal
+"Plan birthday party for partner","Coordinate guest list, cake order, and decorations for surprise.",Personal
+"Download and organize e-books on tablet","Categorize library and delete finished titles to free space.",Personal
+"Set up home gym area in spare room","Lay mat, arrange weights, and mount mirror for workouts.",Personal
+"Call internet provider about bill increase","Negotiate rate and ask about current promotional offers.",Personal
+"Create a weekly cleaning schedule","Write down chores for each day to stay on top of housework.",Personal
+"Bake cookies for office colleagues","Prepare batch of chocolate chip treats to share at work.",Personal
+"Charge all electronic devices overnight","Plug in laptop, phone, tablet, and headphones for morning.",Personal
+"Research best travel insurance plans","Compare coverage and prices for upcoming international trip.",Personal
+"Make a photo collage for wall","Print favorite pictures and arrange them in a stylish frame grid.",Personal
+"Replace worn-out shower curtain liner","Buy new liner and install to prevent mildew buildup.",Personal
+"Schedule a massage therapy session","Book 60-minute deep tissue massage to relieve back pain.",Personal
+"Buy groceries for weekly meal plan","Shop for produce, dairy, meats, and pantry staples from list.",Shopping
+"Order new running shoes from online store","Select brand and size then check out with express shipping.",Shopping
+"Pick up dry cleaning and drop off suits","Collect finished garments and leave new items for pressing.",Shopping
+"Get birthday gift for Sarah's party","Shop for a nice candle or book and wrapping paper.",Shopping
+"Purchase office supplies like pens and sticky notes","Buy notebooks, highlighters, and printer paper from store.",Shopping
+"Buy winter coat on end-of-season sale","Try on styles and choose one with good insulation and fit.",Shopping
+"Order contact lenses and solution online","Re-up prescription and add to cart with shipping.",Shopping
+"Shop for new bedsheets and pillowcases","Find cotton percale set in neutral color for guest room.",Shopping
+"Buy ingredients for dinner party","Pick up fresh herbs, wine, and specialty cheese from market.",Shopping
+"Purchase gift cards for niece's graduation","Buy Amazon and Starbucks cards in decorative holders.",Shopping
+"Stock up on household cleaning supplies","Get bleach, sponges, and glass cleaner in bulk.",Shopping
+"Order textbooks for next semester","Compare prices on Chegg and Amazon for required reading.",Shopping
+"Buy new jeans and casual tops","Try on multiple fits and choose versatile pieces for everyday.",Shopping
+"Get pet food and treats from pet store","Purchase kibble, dental chews, and a new toy for the dog.",Shopping
+"Shop for art supplies for painting class","Buy canvas, brushes, and acrylic paint set online.",Shopping
+"Pick up prescription medication at pharmacy","Collect refill and ask pharmacist about side effects.",Shopping
+"Order a new phone case and screen protector","Choose durable case with drop protection and clear film.",Shopping
+"Buy produce and meat for weekend BBQ","Get burgers, corn, and salad ingredients from local butcher.",Shopping
+"Purchase holiday decorations and lights","Shop for tree ornaments, garlands, and outdoor string lights.",Shopping
+"Get car air freshener and floor mats","Buy accessories to keep vehicle interior smelling clean.",Shopping
+"Order vitamins and supplements online","Restock multivitamins, omega-3, and vitamin D from retailer.",Shopping
+"Buy a new backpack for daily commute","Look for water-resistant, padded laptop compartment and comfort.",Shopping
+"Purchase coffee beans and tea bags","Get freshly roasted beans and assorted herbal teas.",Shopping
+"Shop for baby shower gift",  "Choose onesies, blankets, and a gift receipt from the registry.",Shopping
+"Buy gardening seeds and potting soil","Get tomato, basil, and flower seeds plus soil mix.",Shopping
+"Order wireless earbuds for workouts","Compare models and buy sweatproof version with good reviews.",Shopping
+"Purchase new towels and bath mat","Select soft cotton set in matching color for bathroom refresh.",Shopping
+"Get printer ink and paper refills","Buy cartridges and ream of paper for home office printing.",Shopping
+"Shop for camping gear and supplies","Buy tent, sleeping bag, and portable stove for upcoming trip.",Shopping
+"Buy a new watch and strap replacement","Choose simple analog watch and extra leather band.",Shopping
+"Order homemade candles for relaxation","Purchase soy wax melts and essential oil diffuser online.",Shopping
+"Purchase gift wrap and ribbon for presents","Get rolls of wrapping paper and coordinating bows.",Shopping
+"Buy storage bins for closet organization","Acquire clear plastic bins with lids for seasonal clothes.",Shopping
+"Shop for new makeup and skincare products","Restock foundation, moisturizer, and sunscreen from Sephora.",Shopping
+"Order a new yoga mat and blocks","Select non-slip mat and cork blocks for home practice.",Shopping
+"Purchase batteries and surge protectors","Get AA, AAA, and power strips for electronics.",Shopping
+"Buy a new umbrella and raincoat","Choose compact umbrella and lightweight waterproof jacket.",Shopping
+"Shop for wall art and picture frames","Find prints and frames to decorate living room walls.",Shopping
+"Order kitchen gadgets like a spiralizer","Buy veggie cutter, peeler, and measuring spoons.",Shopping
+"Purchase snacks and drinks for road trip","Stock up on chips, granola bars, water, and soda.",Shopping
+"Buy a new laptop sleeve and mouse","Get padded sleeve and wireless mouse for remote work.",Shopping
+"Shop for wedding guest outfit and shoes","Find formal dress and comfortable heels for the ceremony.",Shopping
+"Order custom photo calendar for gifts","Upload family photos and print calendar for relatives.",Shopping
+"Purchase laundry detergent and fabric softener","Buy eco-friendly pods and dryer sheets in bulk.",Shopping
+"Buy a new water bottle and lunch box","Get insulated stainless steel bottle and bento box.",Shopping
+"Shop for men's grooming products","Buy shaving cream, aftershave, and beard oil.",Shopping
+"Order sushi platter for party",   "Reserve assorted sushi and sashimi tray for 10 guests.",Shopping
+"Purchase new curtains and curtain rods","Choose blackout curtains and measure window width.",Shopping
+"Buy a new bike helmet and lock","Get CPSC-certified helmet and sturdy U-lock for commuting.",Shopping
+"Shop for winter gloves and scarf", "Find warm, windproof accessories for cold weather walking.",Shopping
+"Order a weighted blanket for sleep","Select 15-lb blanket with washable cover from online store.",Shopping
+"Purchase new running shorts and tank","Buy breathable athletic wear for morning jogs.",Shopping
+"Buy a new blender for smoothies","Choose high-powered model with glass pitcher and presets.",Shopping
+"Shop for eco-friendly reusable bags","Buy cotton totes and mesh produce bags for grocery runs.",Shopping
+"Order birthday cake for coworker","Place order for chocolate cake with custom message.",Shopping
+"Purchase a new book series for leisure","Buy fantasy trilogy box set from local bookstore.",Shopping
+"Buy a new lamp for bedside table","Choose adjustable brightness LED lamp with USB port.",Shopping
+"Shop for home security cameras","Research and buy Wi-Fi cameras with motion detection.",Shopping
+"Order new sneakers for casual wear","Select stylish low-top sneakers in white or gray.",Shopping
+"Purchase office chair cushion for comfort","Get memory foam seat pad to improve posture.",Shopping
+"Buy a new toaster and coffee maker","Replace old appliances with sleek, compact models.",Shopping
+"Shop for party supplies and decorations","Get balloons, streamers, and tableware for kids' party.",Shopping
+"Go for a 30-minute run in the park","Jog at moderate pace to improve cardiovascular endurance.",Health
+"Schedule annual physical with primary care","Book comprehensive check-up including blood work and vitals.",Health
+"Drink 8 glasses of water throughout day","Track water intake using marked bottle to stay hydrated.",Health
+"Do 15 minutes of morning yoga stretches","Follow sun salutation sequence to loosen stiff muscles.",Health
+"Take daily multivitamin and omega-3","Consume supplements with breakfast for consistent nutrient intake.",Health
+"Meditate for 10 minutes using guided app","Sit quietly and focus on breathing to reduce stress.",Health
+"Walk 10,000 steps with pedometer","Take brisk walks during breaks to hit daily step goal.",Health
+"Prepare healthy salad for lunch","Mix greens, grilled chicken, and vinaigrette for balanced meal.",Health
+"Get 8 hours of sleep tonight","Aim for early bedtime and avoid screens before sleeping.",Health
+"Log meals into calorie tracking app","Record breakfast, lunch, dinner, and snacks for awareness.",Health
+"Do a 20-minute HIIT workout at home","Perform intervals of burpees, squats, and mountain climbers.",Health
+"Schedule dermatologist checkup for moles","Book skin exam to monitor any suspicious spots.",Health
+"Practice deep breathing exercises for anxiety","Inhale for 4, hold for 7, exhale for 8 reps.",Health
+"Eat a piece of fruit with every meal","Add apple, banana, or berries to breakfast and lunch.",Health
+"Stretch neck and shoulders during work breaks","Do chin tucks and shoulder rolls every hour to relieve tension.",Health
+"Go for a bike ride around the neighborhood","Cycle for 25 minutes at moderate resistance for cardio.",Health
+"Drink green tea instead of coffee","Swap one cup of coffee for antioxidant-rich matcha or green tea.",Health
+"Take a 15-minute power nap after lunch","Rest briefly to boost afternoon energy and focus.",Health
+"Prepare overnight oats for breakfast","Mix oats, milk, chia seeds, and fruit for quick morning meal.",Health
+"Schedule a hearing test with audiologist","Book appointment to check for any high-frequency loss.",Health
+"Do plank exercises for core strength","Hold forearm plank for 3 sets of 30 seconds daily.",Health
+"Pack a healthy snack for work",   "Bring nuts, yogurt, or carrot sticks to avoid vending machines.",Health
+"Monitor blood pressure at home","Use cuff to check readings and log results for doctor.",Health
+"Attend a virtual fitness class online","Join live Zumba or spin class from living room.",Health
+"Cook a plant-based dinner tonight","Make lentil soup or tofu stir-fry with lots of vegetables.",Health
+"Practice gratitude journaling before bed","Write down three positive things from the day.",Health
+"Go swimming at community pool","Do laps for 30 minutes to work full body muscles.",Health
+"Eat slowly and chew food thoroughly","Put down fork between bites to aid digestion and fullness.",Health
+"Schedule a follow-up with therapist","Book monthly session to discuss mental health progress.",Health
+"Do a posture check at your desk","Adjust chair, monitor height, and sit upright with feet flat.",Health
+"Replace sugary drinks with sparkling water","Opt for flavored seltzer instead of soda or juice.",Health
+"Take a walk after dinner to aid digestion","Stroll for 15 minutes around the block after eating.",Health
+"Practice mindfulness while eating breakfast","Focus on taste and texture without phone or TV.",Health
+"Get a flu shot at local pharmacy","Walk in for vaccination to prevent seasonal illness.",Health
+"Do a 5-minute morning mobility routine","Perform arm circles, leg swings, and torso twists.",Health
+"Eat a serving of leafy greens daily","Add spinach or kale to smoothies, salads, or pasta.",Health
+"Schedule a podiatrist appointment for foot pain","Check heel or arch discomfort and get orthotic advice.",Health
+"Reduce screen time by 30 minutes before bed","Read a book instead of scrolling to improve sleep quality.",Health
+"Practice progressive muscle relaxation","Tense and release each muscle group from toes to head.",Health
+"Drink a glass of water upon waking","Rehydrate after sleep with 8oz of room-temperature water.",Health
+"Join a local recreational sports league","Sign up for softball or soccer team for fun and exercise.",Health
+"Cook a high-protein breakfast like eggs","Scramble eggs with veggies for satiating morning meal.",Health
+"Use foam roller for muscle recovery","Roll out quads, hamstrings, and back after workouts.",Health
+"Track sleep patterns with wearable device","Monitor deep and REM sleep to adjust bedtime routine.",Health
+"Eat fermented foods for gut health","Add kefir, sauerkraut, or kimchi to daily diet.",Health
+"Practice standing balance exercises","Try tree pose or single-leg stands to improve stability.",Health
+"Schedule an allergy test with specialist","Book skin prick test to identify environmental triggers.",Health
+"Take a warm bath with Epsom salts","Soak for 20 minutes to relax muscles and reduce soreness.",Health
+"Plan a weekend hike in nature","Choose a trail with moderate elevation for fresh air and cardio.",Health
+"Eat a small portion of dark chocolate","Enjoy a square of 70% cocoa for antioxidant treat.",Health
+"Do wrist and hand stretches for typing","Extend fingers and stretch wrists to prevent carpal tunnel.",Health
+"Drink herbal tea before bed for relaxation","Brew chamomile or lavender tea to unwind.",Health
+"Practice positive affirmations daily","Repeat empowering statements to boost self-confidence.",Health
+"Schedule a colonoscopy screening",   "Book recommended preventive procedure based on age and history.",Health
+"Add chia seeds to smoothies for fiber","Mix in a tablespoon for extra omega-3 and digestion.",Health
+"Take the stairs instead of elevator","Climb 3 flights to increase daily activity level.",Health
+"Do a full-body stretch routine post-workout","Hold each stretch for 30 seconds to cool down.",Health
+"Eat a balanced breakfast with protein and carbs","Combine oatmeal with nuts and fruit for energy.",Health
+"Practice deep belly breathing before meetings","Do 5 slow breaths to reduce pre-meeting anxiety.",Health
+"Schedule a wellness coaching session","Meet with coach to set health goals and accountability.",Health
+"Walk on treadmill while watching TV","Set incline to 3% and walk for duration of a show.",Health
+"Try a new healthy recipe from a cookbook","Make quinoa salad or stuffed peppers for dinner.",Health
+"Pay credit card bill before due date","Log into bank account and schedule payment to avoid interest.",Finance
+"Review monthly budget and track spending","Categorize expenses and compare against income for the month.",Finance
+"Transfer funds from checking to savings","Move $200 to high-yield savings account automatically.",Finance
+"File tax extension request with IRS","Submit Form 4868 to postpone filing deadline by 6 months.",Finance
+"Check investment portfolio performance","Log into brokerage and review returns on stocks and ETFs.",Finance
+"Set up automatic 401(k) contribution increase","Raise deferral percentage by 1% for next paycheck.",Finance
+"Pay rent for the upcoming month","Send online payment to landlord before the 1st grace period.",Finance
+"Create a debt payoff plan for student loans","List all loans and prioritize extra payments to highest interest.",Finance
+"Review credit report for errors","Request free annual report and dispute any incorrect entries.",Finance
+"Set up a separate emergency fund account","Open new savings account and seed with $500 for emergencies.",Finance
+"Pay utilities bill online","Log into electric company portal and pay outstanding balance.",Finance
+"Compare insurance rates for auto and home","Get quotes from 3 providers to find better premium.",Finance
+"Schedule a meeting with financial advisor","Book consult to discuss retirement goals and asset allocation.",Finance
+"Automate recurring transfers to IRA","Set up monthly $100 contribution to Roth IRA account.",Finance
+"Pay off small credit card balance in full","Clear the $150 balance on store card to avoid interest.",Finance
+"Review subscription services and cancel unused","Check bank statements for recurring charges and cancel gym app.",Finance
+"Create a sinking fund for vacation","Open separate bucket and save $50 weekly for summer trip.",Finance
+"Pay medical bill from recent doctor visit","Submit payment online for the remaining copay amount.",Finance
+"Check mortgage rate and refinance options","Research current rates to see if refinancing saves money.",Finance
+"Set up direct deposit for new job","Fill out form with employer to split paycheck between accounts.",Finance
+"Pay car loan installment","Schedule payment for the monthly auto loan before due date.",Finance
+"Review annual fee on credit card","Call bank to waive fee or downgrade to no-fee card.",Finance
+"Create a budget for groceries and dining","Allocate $400 per month and track using envelope system.",Finance
+"Cash out loose change and deposit to bank","Roll coins and deposit into savings account.",Finance
+"Check 529 plan balance for education savings","Log into account and review performance and contributions.",Finance
+"Pay property tax installment",      "Submit payment to county assessor for semi-annual tax bill.",Finance
+"Update beneficiaries on retirement accounts","Log into provider and designate spouse as primary beneficiary.",Finance
+"Review stock options and vesting schedule","Check grant details and plan exercise strategy.",Finance
+"Pay water and sewer bill","Complete payment through city portal to avoid service interruption.",Finance
+"Open a high-yield online savings account","Compare banks and open account with 4.5% APY.",Finance
+"Set spending alerts on credit card","Configure notifications for transactions over $50.",Finance
+"Pay gym membership fee for the quarter","Submit payment for 3-month prepaid gym pass.",Finance
+"Review annual credit card statement for fees","Scan for hidden charges and call to dispute if any.",Finance
+"Transfer HSA funds to investment account","Move excess cash into mutual funds within health savings account.",Finance
+"Pay personal loan installment","Make monthly payment toward debt consolidation loan.",Finance
+"Check credit score using free service","Log into Credit Karma and note any changes from last month.",Finance
+"Create a will and estate planning documents","Consult online service to draft basic will and healthcare proxy.",Finance
+"Pay internet and cable bill","Settle monthly charge for home Wi-Fi and streaming package.",Finance
+"Review flexible spending account balance","Check remaining FSA funds and plan eligible purchases.",Finance
+"Pay for annual car registration","Renew tags and pay state fees before expiration.",Finance
+"Set up a custodial account for child","Open UGMA account and transfer $100 as starting balance.",Finance
+"Pay for home insurance premium","Submit annual or monthly payment to insurer for coverage.",Finance
+"Review mutual fund expense ratios","Compare fees and consider low-cost index fund alternatives.",Finance
+"Pay for continuing education course","Register and pay tuition for professional certification class.",Finance
+"Check for unclaimed property in your state","Search state treasury website for forgotten funds.",Finance
+"Pay parking tickets and fines","Clear any outstanding city citations to avoid penalties.",Finance
+"Review dividend reinvestment plan","Check DRIP settings and decide to reinvest or cash out.",Finance
+"Set up a coin jar for holiday savings","Collect spare change and deposit quarterly for gift budget.",Finance
+"Pay for pet insurance premium","Submit monthly payment for coverage on vet bills.",Finance
+"Read chapter 5 of history textbook","Study the French Revolution section and take notes for quiz.",Education
+"Complete math HW set on derivatives","Solve 20 calculus problems on differentiation rules.",Education
+"Study for final exam in psychology","Review lecture slides, flashcards, and practice test questions.",Education
+"Write essay outline for English class","Structure introduction, body paragraphs, and conclusion with thesis.",Education
+"Attend online lecture for economics","Watch live zoom session on supply and demand curves.",Education
+"Create flashcards for Spanish vocabulary","Make digital cards for 50 new verbs and their conjugations.",Education
+"Finish lab report for chemistry experiment","Compile data, observations, and conclusions from titration lab.",Education
+"Read research paper for sociology","Annotate key findings and methodology for class discussion.",Education
+"Practice coding problems on LeetCode","Solve 3 medium-level algorithm challenges in Python.",Education
+"Prepare presentation for political science","Create slides on electoral college reform for group project.",Education
+"Review notes from organic chemistry lecture","Re-write reaction mechanisms and identify tricky concepts.",Education
+"Complete online quiz for statistics","Answer 15 multiple-choice questions on probability distributions.",Education
+"Write a summary of assigned novel chapter","Condense plot points and themes from 'The Great Gatsby'.",Education
+"Join study group for biology exam","Meet with classmates to review cellular respiration and genetics.",Education
+"Watch documentary for art history class","View film on Impressionism and take bullet-point notes.",Education
+"Practice piano scales for music theory","Run through major and minor scales for 20 minutes.",Education
+"Read two articles for journalism ethics","Summarize arguments on press freedom and social media.",Education
+"Complete coding assignment on data structures","Implement a binary search tree and test traversal methods.",Education
+"Write a draft of personal statement for grad school","Brainstorm experiences and begin opening paragraph.",Education
+"Review calculus integration techniques","Practice u-substitution and integration by parts problems.",Education
+"Create timeline for history project","Chart key dates from Civil War to Reconstruction era.",Education
+"Listen to podcast on philosophy for class","Take notes on epistemology episode for discussion board.",Education
+"Practice writing Chinese characters","Write each character 5 times from the new vocabulary list.",Education
+"Complete peer review of classmate's essay","Read and provide constructive feedback on their draft.",Education
+"Study anatomy flashcards for skeleton","Label all major bones and joints on a diagram.",Education
+"Attend office hours for professor","Go ask about midterm grading and clarification on lecture.",Education
+"Read case study for business ethics","Analyze dilemma and prepare answers for class debate.",Education
+"Prepare for debate on renewable energy","Gather facts and arguments for affirmative side.",Education
+"Complete online module on Python libraries","Work through NumPy and Pandas tutorial exercises.",Education
+"Write a reflection paper on service learning","Describe experience and connect to course theories.",Education
+"Review grammar rules for English exam","Focus on subject-verb agreement and comma usage.",Education
+"Create concept map for psychology chapter","Draw connections between learning theories and memory models.",Education
+"Practice public speaking with a timer","Rehearse 5-minute speech and adjust pacing.",Education
+"Read and annotate legal case brief","Highlight key rulings in 'Brown v. Board of Education'.",Education
+"Complete homework on linear algebra","Solve matrix multiplication and eigenvector problems.",Education
+"Write discussion post for online class","Respond to prompt on globalization with 200-word post.",Education
+"Review errors on past exam and correct","Go through wrong answers and rewrite correct solutions.",Education
+"Watch tutorial on Excel pivot tables","Follow steps to summarize data for project.",Education
+"Prepare a bibliography for research paper","Cite 10 sources in APA format using citation tool.",Education
+"Practice timed essay writing for SAT","Write an argumentative essay within 25 minutes.",Education
+"Read Shakespeare sonnet and paraphrase","Translate archaic language into modern English.",Education
+"Complete crossword puzzle for vocabulary","Fill in terms from weekly reading list.",Education
+"Create flashcards for medical terminology","Prefixes and suffixes for anatomy class.",Education
+"Review lecture recording from missed class","Watch playback and take missing notes.",Education
+"Brainstorm topics for term paper","List 5 possible research questions and narrow down.",Education
+"Complete interactive simulation for physics","Run pendulum experiment and record data.",Education
+"Write a short poem for creative writing class","Compose a haiku or free verse on nature theme.",Education
+"Practice mental math techniques","Solve problems without calculator to improve speed.",Education
+"Read editorial and analyze bias","Identify persuasive techniques in opinion piece.",Education
+"Complete unit test prep for geography","Study maps and capitals of South American countries.",Education
+"Create an infographic for social studies","Visualize immigration data using Canva or Piktochart.",Education
+"Review feedback on previous assignment","Read professor comments and plan improvements.",Education
+"Prepare questions for guest lecturer","Write 3 thoughtful inquiries about their research.",Education
+"Practice touch typing for speed","Use typing tutor for 15 minutes to increase WPM.",Education
+"Summarize TED talk for communication class","Outline main points and delivery techniques.",Education
+"Complete coding challenge on recursion","Write function to solve Fibonacci and factorial recursively.",Education
+"Read about statistical hypothesis testing","Learn about p-values and Type I/II errors.",Education
+"Write a business memo for management class","Format and draft memo on productivity initiative.",Education
+"Review musical score for band practice","Sight-read new piece and mark breathing points.",Education
+"Create a study schedule for final exams","Allocate time each day for each subject leading up to tests.",Education
+"Complete an online grammar quiz","Test knowledge of tenses and modals with 20 questions.",Education
+"Research career paths in engineering","Explore industries and required skills for electrical engineering.",Education
+"Practice drawing perspective for architecture","Sketch 1-point and 2-point perspective rooms.",Education
+"Read and critique a scientific paper","Evaluate methodology and suggest improvements.",Education
+"Write a to-do list for thesis milestones","Break down chapters and set deadlines for each.",Education

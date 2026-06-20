@@ -1,0 +1,521 @@
+/* === CSS Variables (Tasks Page) === */
+:root {
+    --bg-primary: #0a0a0a;
+    --bg-secondary: #111111;
+    --bg-card: #181818;
+    --bg-nav: #131313;
+    --bg-input: #1c1c1c;
+    --red-deep: #9b1d20;
+    --red-primary: #e63946;
+    --red-bright: #ff4d5a;
+    --red-dark: #2b0a0c;
+    --red-glow: rgba(230, 57, 70, 0.35);
+    --text-primary: #e8e8e8;
+    --text-secondary: #b0b0b0;
+    --text-muted: #6f6f6f;
+    --border-color: #272727;
+    --border-focus: #e63946;
+    --shadow-card: 0 8px 40px rgba(0, 0, 0, 0.7);
+    --shadow-glow: 0 0 60px rgba(230, 57, 70, 0.12);
+    --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* === Reset & Base === */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-primary);
+    background-image:
+        radial-gradient(ellipse at 50% 0%, rgba(230, 57, 70, 0.05) 0%, transparent 70%),
+        radial-gradient(ellipse at 80% 100%, rgba(155, 29, 32, 0.04) 0%, transparent 60%);
+    min-height: 100vh;
+    color: var(--text-primary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+
+/* Subtle background pattern */
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+        repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.006) 2px, rgba(255,255,255,0.006) 4px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* === Header & Navigation === */
+header {
+    position: relative;
+    z-index: 10;
+    background: rgba(19, 19, 19, 0.92);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--border-color);
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    animation: headerSlide 0.6s ease-out;
+}
+
+@keyframes headerSlide {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 10px;
+    transition: all var(--transition-smooth);
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: var(--red-bright);
+    transition: width var(--transition-smooth);
+    border-radius: 1px;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    background: rgba(230, 57, 70, 0.12);
+}
+
+nav ul li a:hover::after {
+    width: 60%;
+}
+
+/* Active page (tasks.php) */
+nav ul li:nth-child(2) a {
+    color: #ffffff;
+    background: rgba(230, 57, 70, 0.18);
+}
+
+header h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(135deg, #ffffff 0%, #cacaca 40%, var(--red-bright) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.5px;
+    text-shadow: 0 0 30px rgba(230, 57, 70, 0.2);
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* === Main Content Area === */
+section {
+    position: relative;
+    z-index: 2;
+    max-width: 1100px;
+    margin: 5rem auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+    animation: cardFadeIn 0.8s ease-out 0.2s both;
+}
+
+@keyframes cardFadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* === Cards === */
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 24px;
+    padding: 3.5rem 3rem;
+    box-shadow:
+        var(--shadow-card),
+        var(--shadow-glow),
+        inset 0 1px 0 rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: transform var(--transition-smooth), box-shadow var(--transition-smooth);
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--red-primary), var(--red-bright), transparent);
+    border-radius: 0 0 3px 3px;
+    opacity: 0.9;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        var(--shadow-card),
+        0 0 70px rgba(230, 57, 70, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.card h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+}
+
+.card h2::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 50%;
+    height: 3px;
+    background: var(--red-primary);
+    border-radius: 2px;
+}
+
+/* === Add Task Form === */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+form label {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    color: var(--text-secondary);
+    margin-bottom: -1.2rem;
+    transition: color var(--transition-fast);
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 1.3rem 1.5rem;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    background: var(--bg-input);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    outline: none;
+    transition: all var(--transition-smooth);
+    font-family: inherit;
+    letter-spacing: 0.3px;
+    resize: vertical;
+}
+
+form textarea {
+    min-height: 100px;
+    line-height: 1.5;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: var(--text-muted);
+    opacity: 0.7;
+    font-size: 1.3rem;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: var(--border-focus);
+    background: #1f1f1f;
+    box-shadow:
+        0 0 0 4px var(--red-dark),
+        0 0 25px var(--red-glow);
+    transform: translateY(-1px);
+}
+
+/* Label highlight on focus */
+form label:has(+ input:focus),
+form label:has(+ textarea:focus) {
+    color: var(--red-bright);
+}
+
+/* Button (ADD) */
+form button[type="submit"] {
+    margin-top: 0.5rem;
+    padding: 1.4rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #ffffff;
+    background: linear-gradient(135deg, var(--red-deep) 0%, var(--red-primary) 45%, var(--red-bright) 100%);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all var(--transition-smooth);
+    box-shadow: 0 5px 25px rgba(230, 57, 70, 0.35);
+}
+
+form button[type="submit"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+    transition: left 0.55s ease;
+}
+
+form button[type="submit"]:hover {
+    transform: translateY(-3px);
+    box-shadow:
+        0 8px 35px rgba(230, 57, 70, 0.55),
+        0 0 0 2px rgba(230, 57, 70, 0.25);
+    letter-spacing: 3.5px;
+}
+
+form button[type="submit"]:hover::before {
+    left: 100%;
+}
+
+form button[type="submit"]:active {
+    transform: translateY(-1px) scale(0.98);
+    box-shadow: 0 3px 18px rgba(230, 57, 70, 0.45);
+    transition: all 0.1s ease;
+}
+
+/* === Task List Container === */
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tasks h3 strong {
+    font-size: 1.9rem;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+}
+
+.tasks p {
+    font-size: 1.45rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.8rem;
+    word-break: break-word;
+}
+
+.tasks p strong {
+    color: var(--red-bright);
+    font-weight: 600;
+}
+
+/* Status specific colors */
+.tasks p strong:contains("completed") {
+    color: #4ade80;
+}
+
+/* Task action links */
+.btn-complete,
+.btn-delete {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.35rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    transition: all var(--transition-fast);
+    border: 1px solid transparent;
+    background: var(--bg-input);
+    color: var(--text-secondary);
+}
+
+.btn-complete:hover {
+    background: rgba(74, 222, 128, 0.1);
+    border-color: #4ade80;
+    color: #4ade80;
+    transform: translateY(-2px);
+}
+
+.btn-delete {
+    background: var(--bg-input);
+    color: var(--text-secondary);
+}
+
+.btn-delete:hover {
+    background: rgba(230, 57, 70, 0.1);
+    border-color: var(--red-bright);
+    color: var(--red-bright);
+    transform: translateY(-2px);
+}
+
+/* Horizontal rule between tasks */
+.tasks hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: 1.5rem 0;
+    opacity: 0.5;
+}
+
+/* Empty state message */
+.tasks h3 strong:only-child {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--text-muted);
+    margin-top: 2rem;
+}
+
+/* === Responsive Design === */
+@media (max-width: 900px) {
+    section {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 1.5rem 2rem;
+        gap: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    nav ul li a {
+        font-size: 1.3rem;
+        padding: 0.5rem 1rem;
+    }
+
+    section {
+        margin: 3rem 1.5rem;
+    }
+
+    .card {
+        padding: 2.5rem 2rem;
+    }
+
+    .card h2 {
+        font-size: 1.9rem;
+    }
+
+    form input,
+    form textarea {
+        font-size: 1.4rem;
+        padding: 1.1rem 1.3rem;
+    }
+
+    form button[type="submit"] {
+        font-size: 1.4rem;
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width: 380px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    .card {
+        padding: 2rem 1.5rem;
+    }
+}
+
+/* === Selection === */
+::selection {
+    background: rgba(230, 57, 70, 0.35);
+    color: #ffffff;
+}
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2a2a2a;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--red-deep);
+}
+
+/* === Focus Visible for Accessibility === */
+:focus-visible {
+    outline: 2px solid var(--red-bright);
+    outline-offset: 3px;
+    border-radius: 5px;
+}
+
+/* === Autofill Override === */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-text-fill-color: var(--text-primary);
+    -webkit-box-shadow: 0 0 0px 1000px var(--bg-input) inset;
+    border-color: var(--border-focus);
+    transition: background-color 5000s ease-in-out 0s;
+}

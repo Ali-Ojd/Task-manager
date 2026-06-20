@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOGIN</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <h1>Login Page</h1>
+            <form action="login.php" method="POST" onsubmit="return validation()">
+                <label>Email:</label>
+                <input type="email" id="email" name="email">
+                <label>Mot de passe:</label>
+                <input type="password" id="pass" name="pass">
+                <button type="submit">Log in</button>
+            </form>
+                <div><a href="Sign_in.html">Make a new account?</a></div>
+                <p id="message"></p>
+        </section>
+        <script src="login.js"></script>
+    </body>
+</html>

@@ -1,0 +1,362 @@
+/* === CSS Variables (Home Page) === */
+:root {
+    --bg-primary: #0a0a0a;
+    --bg-secondary: #111111;
+    --bg-card: #171717;
+    --bg-nav: #121212;
+    --red-deep: #9b1d20;
+    --red-primary: #e63946;
+    --red-bright: #ff4d5a;
+    --red-dark: #2b0a0c;
+    --red-glow: rgba(230, 57, 70, 0.35);
+    --text-primary: #e5e5e5;
+    --text-secondary: #b0b0b0;
+    --text-muted: #6f6f6f;
+    --border-color: #262626;
+    --shadow-card: 0 10px 50px rgba(0, 0, 0, 0.6);
+    --shadow-glow: 0 0 60px rgba(230, 57, 70, 0.12);
+    --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* === Reset & Base === */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-primary);
+    background-image:
+        radial-gradient(ellipse at 50% 0%, rgba(230, 57, 70, 0.06) 0%, transparent 70%),
+        radial-gradient(ellipse at 80% 100%, rgba(155, 29, 32, 0.05) 0%, transparent 60%);
+    min-height: 100vh;
+    color: var(--text-primary);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+
+/* Subtle background texture */
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+        repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.008) 2px, rgba(255,255,255,0.008) 4px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* === Header / Navigation === */
+header {
+    position: relative;
+    z-index: 10;
+    background: rgba(18, 18, 18, 0.9);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-color);
+    padding: 1.8rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    animation: headerSlide 0.6s ease-out;
+}
+
+@keyframes headerSlide {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 10px;
+    transition: all var(--transition-smooth);
+    position: relative;
+    letter-spacing: 0.3px;
+    background: transparent;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: var(--red-bright);
+    transition: width var(--transition-smooth);
+    border-radius: 1px;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    background: rgba(230, 57, 70, 0.1);
+}
+
+nav ul li a:hover::after {
+    width: 60%;
+}
+
+/* Active page link (optional, but home.php is current) */
+nav ul li:first-child a {
+    color: #ffffff;
+    background: rgba(230, 57, 70, 0.15);
+}
+
+/* Welcome heading inside header */
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(135deg, #ffffff 0%, #cacaca 40%, var(--red-bright) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.5px;
+    text-shadow: 0 0 30px rgba(230, 57, 70, 0.2);
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* === Main Content Section === */
+section {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    margin: 5rem auto;
+    padding: 0 2rem;
+    animation: cardFadeIn 0.8s ease-out 0.2s both;
+}
+
+@keyframes cardFadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* === Welcome Card === */
+.welcome-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 24px;
+    padding: 4rem 3.5rem;
+    box-shadow:
+        var(--shadow-card),
+        var(--shadow-glow),
+        inset 0 1px 0 rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: transform var(--transition-smooth), box-shadow var(--transition-smooth);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Accent line top */
+.welcome-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--red-primary), var(--red-bright), transparent);
+    border-radius: 0 0 3px 3px;
+}
+
+/* Subtle glow hover */
+.welcome-card:hover {
+    transform: translateY(-5px);
+    box-shadow:
+        var(--shadow-card),
+        0 0 70px rgba(230, 57, 70, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.welcome-card h2 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 2.2rem;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+}
+
+.welcome-card h2::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 40%;
+    height: 3px;
+    background: var(--red-primary);
+    border-radius: 2px;
+    opacity: 0.9;
+}
+
+.welcome-card p {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    margin-bottom: 1.8rem;
+    color: var(--text-secondary);
+}
+
+.welcome-card p strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.welcome-card p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Inline link inside card */
+.welcome-card a {
+    color: var(--red-bright);
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    transition: color var(--transition-fast);
+    padding-bottom: 2px;
+}
+
+.welcome-card a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1.5px;
+    background: var(--red-bright);
+    transition: width var(--transition-smooth);
+    border-radius: 1px;
+}
+
+.welcome-card a:hover {
+    color: #ffffff;
+}
+
+.welcome-card a:hover::after {
+    width: 100%;
+}
+
+/* Quote styling */
+.welcome-card p[style*="italic"] {
+    font-style: italic;
+    color: var(--text-muted);
+    border-left: 3px solid var(--red-primary);
+    padding-left: 1.8rem;
+    margin-top: 2.5rem;
+    font-size: 1.45rem;
+}
+
+/* === Responsive Design === */
+@media (max-width: 600px) {
+    header {
+        padding: 1.5rem 2rem;
+        gap: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    nav ul {
+        gap: 1.2rem;
+    }
+
+    nav ul li a {
+        font-size: 1.35rem;
+        padding: 0.6rem 1.2rem;
+    }
+
+    section {
+        margin: 3rem 1.5rem;
+    }
+
+    .welcome-card {
+        padding: 2.8rem 2rem;
+    }
+
+    .welcome-card h2 {
+        font-size: 2rem;
+    }
+
+    .welcome-card p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 380px) {
+    header h1 {
+        font-size: 1.9rem;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    .welcome-card {
+        padding: 2.2rem 1.5rem;
+    }
+}
+
+/* === Selection === */
+::selection {
+    background: rgba(230, 57, 70, 0.35);
+    color: #ffffff;
+}
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2a2a2a;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--red-deep);
+}
+
+/* === Focus Visible for Accessibility === */
+:focus-visible {
+    outline: 2px solid var(--red-bright);
+    outline-offset: 3px;
+    border-radius: 5px;
+}
